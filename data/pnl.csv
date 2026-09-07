@@ -1,0 +1,721 @@
+period,entity_id,section,line_item,scenario,amount
+2026-01,HOTEL_A,Revenue,Rooms Revenue,budget,328308.5
+2026-01,HOTEL_A,Revenue,Food & Beverage Revenue,budget,73279.2
+2026-01,HOTEL_A,Revenue,Other Operating Revenue,budget,17355.6
+2026-01,HOTEL_A,Departmental Expenses,Rooms Labor,budget,45536.4
+2026-01,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,17831.4
+2026-01,HOTEL_A,Departmental Expenses,F&B Labor,budget,28429.2
+2026-01,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,22176.6
+2026-01,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,6890.88
+2026-01,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,11228.16
+2026-01,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,10778.04
+2026-01,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,10919.52
+2026-01,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,15110.64
+2026-01,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-01,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-01,HOTEL_A,Fixed Charges,Management Fees,budget,12568.3
+2026-01,HOTEL_A,Revenue,Rooms Revenue,actual,327142.72
+2026-01,HOTEL_A,Revenue,Food & Beverage Revenue,actual,74593.29
+2026-01,HOTEL_A,Revenue,Other Operating Revenue,actual,17586.46
+2026-01,HOTEL_A,Departmental Expenses,Rooms Labor,actual,46589.78
+2026-01,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,18084.39
+2026-01,HOTEL_A,Departmental Expenses,F&B Labor,actual,28267.3
+2026-01,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,22445.28
+2026-01,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,6783.92
+2026-01,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,11463.6
+2026-01,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,10888.67
+2026-01,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,10743.35
+2026-01,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,18986.69
+2026-01,HOTEL_A,Fixed Charges,Property Insurance,actual,3570.76
+2026-01,HOTEL_A,Fixed Charges,Property Taxes,actual,8510.85
+2026-01,HOTEL_A,Fixed Charges,Management Fees,actual,12579.67
+2026-02,HOTEL_A,Revenue,Rooms Revenue,budget,304781.9
+2026-02,HOTEL_A,Revenue,Food & Beverage Revenue,budget,68027.6
+2026-02,HOTEL_A,Revenue,Other Operating Revenue,budget,16111.8
+2026-02,HOTEL_A,Departmental Expenses,Rooms Labor,budget,42634.2
+2026-02,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,16656.7
+2026-02,HOTEL_A,Departmental Expenses,F&B Labor,budget,26632.6
+2026-02,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,20587.3
+2026-02,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,6448.64
+2026-02,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,10896.48
+2026-02,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,10349.62
+2026-02,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,10532.56
+2026-02,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,14474.92
+2026-02,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-02,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-02,HOTEL_A,Fixed Charges,Management Fees,budget,11667.64
+2026-02,HOTEL_A,Revenue,Rooms Revenue,actual,302693.91
+2026-02,HOTEL_A,Revenue,Food & Beverage Revenue,actual,69051.43
+2026-02,HOTEL_A,Revenue,Other Operating Revenue,actual,15138.05
+2026-02,HOTEL_A,Departmental Expenses,Rooms Labor,actual,40275.16
+2026-02,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,16128.81
+2026-02,HOTEL_A,Departmental Expenses,F&B Labor,actual,25511.36
+2026-02,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,19667.1
+2026-02,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,6029.83
+2026-02,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,11098.88
+2026-02,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,10667.42
+2026-02,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,10102.89
+2026-02,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,13587.26
+2026-02,HOTEL_A,Fixed Charges,Property Insurance,actual,3537.5
+2026-02,HOTEL_A,Fixed Charges,Property Taxes,actual,8080.19
+2026-02,HOTEL_A,Fixed Charges,Management Fees,actual,11606.5
+2026-03,HOTEL_A,Revenue,Rooms Revenue,budget,373922.3
+2026-03,HOTEL_A,Revenue,Food & Beverage Revenue,budget,83459.4
+2026-03,HOTEL_A,Revenue,Other Operating Revenue,budget,19766.7
+2026-03,HOTEL_A,Departmental Expenses,Rooms Labor,budget,51162.3
+2026-03,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,20108.55
+2026-03,HOTEL_A,Departmental Expenses,F&B Labor,budget,31911.9
+2026-03,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,25257.45
+2026-03,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,7748.16
+2026-03,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,11871.12
+2026-03,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,11608.53
+2026-03,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,11669.64
+2026-03,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,16342.98
+2026-03,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-03,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-03,HOTEL_A,Fixed Charges,Management Fees,budget,14314.45
+2026-03,HOTEL_A,Revenue,Rooms Revenue,actual,364439.93
+2026-03,HOTEL_A,Revenue,Food & Beverage Revenue,actual,85319.84
+2026-03,HOTEL_A,Revenue,Other Operating Revenue,actual,20669.89
+2026-03,HOTEL_A,Departmental Expenses,Rooms Labor,actual,49214.37
+2026-03,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,20076.64
+2026-03,HOTEL_A,Departmental Expenses,F&B Labor,actual,31126.41
+2026-03,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,29307.7
+2026-03,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,7840.09
+2026-03,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,12135.56
+2026-03,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,11327.09
+2026-03,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,11433.56
+2026-03,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,15335.9
+2026-03,HOTEL_A,Fixed Charges,Property Insurance,actual,3398.11
+2026-03,HOTEL_A,Fixed Charges,Property Taxes,actual,8182.88
+2026-03,HOTEL_A,Fixed Charges,Management Fees,actual,14112.89
+2026-04,HOTEL_A,Revenue,Rooms Revenue,budget,397142.8
+2026-04,HOTEL_A,Revenue,Food & Beverage Revenue,budget,88642.6
+2026-04,HOTEL_A,Revenue,Other Operating Revenue,budget,20994.3
+2026-04,HOTEL_A,Departmental Expenses,Rooms Labor,budget,54026.7
+2026-04,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,21267.95
+2026-04,HOTEL_A,Departmental Expenses,F&B Labor,budget,33685.1
+2026-04,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,26826.05
+2026-04,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,8184.64
+2026-04,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,12198.48
+2026-04,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,12031.37
+2026-04,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,12051.56
+2026-04,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,16970.42
+2026-04,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-04,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-04,HOTEL_A,Fixed Charges,Management Fees,budget,15203.39
+2026-04,HOTEL_A,Revenue,Rooms Revenue,actual,394019.81
+2026-04,HOTEL_A,Revenue,Food & Beverage Revenue,actual,89701.77
+2026-04,HOTEL_A,Revenue,Other Operating Revenue,actual,21138.64
+2026-04,HOTEL_A,Departmental Expenses,Rooms Labor,actual,53346.09
+2026-04,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,20546.91
+2026-04,HOTEL_A,Departmental Expenses,F&B Labor,actual,31587.11
+2026-04,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,25540.66
+2026-04,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,8675.83
+2026-04,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,12578.9
+2026-04,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,11989.92
+2026-04,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,11784.41
+2026-04,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,16655.23
+2026-04,HOTEL_A,Fixed Charges,Property Insurance,actual,3585.22
+2026-04,HOTEL_A,Fixed Charges,Property Taxes,actual,7962.38
+2026-04,HOTEL_A,Fixed Charges,Management Fees,actual,15145.81
+2026-05,HOTEL_A,Revenue,Rooms Revenue,budget,455996.0
+2026-05,HOTEL_A,Revenue,Food & Beverage Revenue,budget,101779.2
+2026-05,HOTEL_A,Revenue,Other Operating Revenue,budget,24105.6
+2026-05,HOTEL_A,Departmental Expenses,Rooms Labor,budget,61286.4
+2026-05,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,24206.4
+2026-05,HOTEL_A,Departmental Expenses,F&B Labor,budget,38179.2
+2026-05,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,30801.6
+2026-05,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,9290.88
+2026-05,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,13028.16
+2026-05,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,13103.04
+2026-05,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,13019.52
+2026-05,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,18560.64
+2026-05,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-05,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-05,HOTEL_A,Fixed Charges,Management Fees,budget,17456.42
+2026-05,HOTEL_A,Revenue,Rooms Revenue,actual,463950.49
+2026-05,HOTEL_A,Revenue,Food & Beverage Revenue,actual,104089.59
+2026-05,HOTEL_A,Revenue,Other Operating Revenue,actual,25131.99
+2026-05,HOTEL_A,Departmental Expenses,Rooms Labor,actual,63025.03
+2026-05,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,24687.87
+2026-05,HOTEL_A,Departmental Expenses,F&B Labor,actual,37402.96
+2026-05,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,31855.99
+2026-05,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,9544.61
+2026-05,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,13400.25
+2026-05,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,13179.35
+2026-05,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,13433.28
+2026-05,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,18469.96
+2026-05,HOTEL_A,Fixed Charges,Property Insurance,actual,3704.78
+2026-05,HOTEL_A,Fixed Charges,Property Taxes,actual,8233.24
+2026-05,HOTEL_A,Fixed Charges,Management Fees,actual,17795.16
+2026-06,HOTEL_A,Revenue,Rooms Revenue,budget,494251.8
+2026-06,HOTEL_A,Revenue,Food & Beverage Revenue,budget,110317.8
+2026-06,HOTEL_A,Revenue,Other Operating Revenue,budget,26127.9
+2026-06,HOTEL_A,Departmental Expenses,Rooms Labor,budget,66005.1
+2026-06,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,26116.35
+2026-06,HOTEL_A,Departmental Expenses,F&B Labor,budget,41100.3
+2026-06,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,33385.65
+2026-06,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,10009.92
+2026-06,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,13567.44
+2026-06,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,13799.61
+2026-06,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,13648.68
+2026-06,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,19594.26
+2026-06,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-06,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-06,HOTEL_A,Fixed Charges,Management Fees,budget,18920.92
+2026-06,HOTEL_A,Revenue,Rooms Revenue,actual,497119.6
+2026-06,HOTEL_A,Revenue,Food & Beverage Revenue,actual,113620.56
+2026-06,HOTEL_A,Revenue,Other Operating Revenue,actual,25220.03
+2026-06,HOTEL_A,Departmental Expenses,Rooms Labor,actual,68548.03
+2026-06,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,24810.52
+2026-06,HOTEL_A,Departmental Expenses,F&B Labor,actual,41147.23
+2026-06,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,32572.73
+2026-06,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,9501.93
+2026-06,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,13684.45
+2026-06,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,14413.17
+2026-06,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,13627.74
+2026-06,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,19574.72
+2026-06,HOTEL_A,Fixed Charges,Property Insurance,actual,3424.84
+2026-06,HOTEL_A,Fixed Charges,Property Taxes,actual,8375.93
+2026-06,HOTEL_A,Fixed Charges,Management Fees,actual,19078.81
+2026-07,HOTEL_A,Revenue,Rooms Revenue,budget,547183.5
+2026-07,HOTEL_A,Revenue,Food & Beverage Revenue,budget,122132.0
+2026-07,HOTEL_A,Revenue,Other Operating Revenue,budget,28926.0
+2026-07,HOTEL_A,Departmental Expenses,Rooms Labor,budget,72534.0
+2026-07,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,28759.0
+2026-07,HOTEL_A,Departmental Expenses,F&B Labor,budget,45142.0
+2026-07,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,36961.0
+2026-07,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,11004.8
+2026-07,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,14313.6
+2026-07,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,14763.4
+2026-07,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,14519.2
+2026-07,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,21024.4
+2026-07,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-07,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-07,HOTEL_A,Fixed Charges,Management Fees,budget,20947.24
+2026-07,HOTEL_A,Revenue,Rooms Revenue,actual,575274.29
+2026-07,HOTEL_A,Revenue,Food & Beverage Revenue,actual,121112.77
+2026-07,HOTEL_A,Revenue,Other Operating Revenue,actual,29315.56
+2026-07,HOTEL_A,Departmental Expenses,Rooms Labor,actual,75967.56
+2026-07,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,28962.46
+2026-07,HOTEL_A,Departmental Expenses,F&B Labor,actual,45689.0
+2026-07,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,39019.84
+2026-07,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,11871.39
+2026-07,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,15299.63
+2026-07,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,15523.54
+2026-07,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,14885.21
+2026-07,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,21133.67
+2026-07,HOTEL_A,Fixed Charges,Property Insurance,actual,3555.76
+2026-07,HOTEL_A,Fixed Charges,Property Taxes,actual,7605.12
+2026-07,HOTEL_A,Fixed Charges,Management Fees,actual,21771.08
+2026-08,HOTEL_A,Revenue,Rooms Revenue,budget,538090.9
+2026-08,HOTEL_A,Revenue,Food & Beverage Revenue,budget,120102.8
+2026-08,HOTEL_A,Revenue,Other Operating Revenue,budget,28445.4
+2026-08,HOTEL_A,Departmental Expenses,Rooms Labor,budget,71412.6
+2026-08,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,28305.1
+2026-08,HOTEL_A,Departmental Expenses,F&B Labor,budget,44447.8
+2026-08,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,36346.9
+2026-08,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,10833.92
+2026-08,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,14185.44
+2026-08,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,14597.86
+2026-08,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,14369.68
+2026-08,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,20778.76
+2026-08,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-08,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-08,HOTEL_A,Fixed Charges,Management Fees,budget,20599.17
+2026-08,HOTEL_A,Revenue,Rooms Revenue,actual,557873.7
+2026-08,HOTEL_A,Revenue,Food & Beverage Revenue,actual,122844.24
+2026-08,HOTEL_A,Revenue,Other Operating Revenue,actual,29532.26
+2026-08,HOTEL_A,Departmental Expenses,Rooms Labor,actual,73222.65
+2026-08,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,30587.02
+2026-08,HOTEL_A,Departmental Expenses,F&B Labor,actual,45223.05
+2026-08,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,36546.93
+2026-08,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,10971.5
+2026-08,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,14596.44
+2026-08,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,15144.8
+2026-08,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,15118.86
+2026-08,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,20474.61
+2026-08,HOTEL_A,Fixed Charges,Property Insurance,actual,3489.36
+2026-08,HOTEL_A,Fixed Charges,Property Taxes,actual,8027.27
+2026-08,HOTEL_A,Fixed Charges,Management Fees,actual,21307.51
+2026-09,HOTEL_A,Revenue,Rooms Revenue,budget,463354.0
+2026-09,HOTEL_A,Revenue,Food & Beverage Revenue,budget,103420.8
+2026-09,HOTEL_A,Revenue,Other Operating Revenue,budget,24494.4
+2026-09,HOTEL_A,Departmental Expenses,Rooms Labor,budget,62193.6
+2026-09,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,24573.6
+2026-09,HOTEL_A,Departmental Expenses,F&B Labor,budget,38740.8
+2026-09,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,31298.4
+2026-09,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,9429.12
+2026-09,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,13131.84
+2026-09,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,13236.96
+2026-09,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,13140.48
+2026-09,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,18759.36
+2026-09,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-09,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-09,HOTEL_A,Fixed Charges,Management Fees,budget,17738.08
+2026-09,HOTEL_A,Revenue,Rooms Revenue,actual,454536.78
+2026-09,HOTEL_A,Revenue,Food & Beverage Revenue,actual,104026.46
+2026-09,HOTEL_A,Revenue,Other Operating Revenue,actual,24073.27
+2026-09,HOTEL_A,Departmental Expenses,Rooms Labor,actual,58588.02
+2026-09,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,23986.57
+2026-09,HOTEL_A,Departmental Expenses,F&B Labor,actual,38234.24
+2026-09,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,31974.11
+2026-09,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,9557.74
+2026-09,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,13204.17
+2026-09,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,12862.91
+2026-09,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,13260.4
+2026-09,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,18670.86
+2026-09,HOTEL_A,Fixed Charges,Property Insurance,actual,3535.23
+2026-09,HOTEL_A,Fixed Charges,Property Taxes,actual,8309.99
+2026-09,HOTEL_A,Fixed Charges,Management Fees,actual,17479.1
+2026-10,HOTEL_A,Revenue,Rooms Revenue,budget,446874.7
+2026-10,HOTEL_A,Revenue,Food & Beverage Revenue,budget,99742.4
+2026-10,HOTEL_A,Revenue,Other Operating Revenue,budget,23623.2
+2026-10,HOTEL_A,Departmental Expenses,Rooms Labor,budget,60160.8
+2026-10,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,23750.8
+2026-10,HOTEL_A,Departmental Expenses,F&B Labor,budget,37482.4
+2026-10,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,30185.2
+2026-10,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,9119.36
+2026-10,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,12899.52
+2026-10,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,12936.88
+2026-10,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,12869.44
+2026-10,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,18314.08
+2026-10,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-10,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-10,HOTEL_A,Fixed Charges,Management Fees,budget,17107.21
+2026-10,HOTEL_A,Revenue,Rooms Revenue,actual,448039.9
+2026-10,HOTEL_A,Revenue,Food & Beverage Revenue,actual,99264.34
+2026-10,HOTEL_A,Revenue,Other Operating Revenue,actual,23994.19
+2026-10,HOTEL_A,Departmental Expenses,Rooms Labor,actual,63000.39
+2026-10,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,24453.27
+2026-10,HOTEL_A,Departmental Expenses,F&B Labor,actual,37357.98
+2026-10,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,29572.58
+2026-10,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,9318.09
+2026-10,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,13133.67
+2026-10,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,13236.37
+2026-10,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,12659.73
+2026-10,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,18875.06
+2026-10,HOTEL_A,Fixed Charges,Property Insurance,actual,3731.09
+2026-10,HOTEL_A,Fixed Charges,Property Taxes,actual,8085.78
+2026-10,HOTEL_A,Fixed Charges,Management Fees,actual,17138.95
+2026-11,HOTEL_A,Revenue,Rooms Revenue,budget,361850.6
+2026-11,HOTEL_A,Revenue,Food & Beverage Revenue,budget,80765.2
+2026-11,HOTEL_A,Revenue,Other Operating Revenue,budget,19128.6
+2026-11,HOTEL_A,Departmental Expenses,Rooms Labor,budget,49673.4
+2026-11,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,19505.9
+2026-11,HOTEL_A,Departmental Expenses,F&B Labor,budget,30990.2
+2026-11,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,24442.1
+2026-11,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,7521.28
+2026-11,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,11700.96
+2026-11,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,11388.74
+2026-11,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,11471.12
+2026-11,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,16016.84
+2026-11,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-11,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-11,HOTEL_A,Fixed Charges,Management Fees,budget,13852.33
+2026-11,HOTEL_A,Revenue,Rooms Revenue,actual,356969.31
+2026-11,HOTEL_A,Revenue,Food & Beverage Revenue,actual,79777.79
+2026-11,HOTEL_A,Revenue,Other Operating Revenue,actual,18255.78
+2026-11,HOTEL_A,Departmental Expenses,Rooms Labor,actual,47915.51
+2026-11,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,18811.85
+2026-11,HOTEL_A,Departmental Expenses,F&B Labor,actual,30615.38
+2026-11,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,24253.59
+2026-11,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,7416.77
+2026-11,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,11726.47
+2026-11,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,11433.09
+2026-11,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,12211.38
+2026-11,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,15504.42
+2026-11,HOTEL_A,Fixed Charges,Property Insurance,actual,3803.0
+2026-11,HOTEL_A,Fixed Charges,Property Taxes,actual,8172.34
+2026-11,HOTEL_A,Fixed Charges,Management Fees,actual,13650.09
+2026-12,HOTEL_A,Revenue,Rooms Revenue,budget,355668.3
+2026-12,HOTEL_A,Revenue,Food & Beverage Revenue,budget,79385.8
+2026-12,HOTEL_A,Revenue,Other Operating Revenue,budget,18801.9
+2026-12,HOTEL_A,Departmental Expenses,Rooms Labor,budget,48911.1
+2026-12,HOTEL_A,Departmental Expenses,Rooms Other Expense,budget,19197.35
+2026-12,HOTEL_A,Departmental Expenses,F&B Labor,budget,30518.3
+2026-12,HOTEL_A,Departmental Expenses,F&B Cost of Sales,budget,24024.65
+2026-12,HOTEL_A,Departmental Expenses,F&B Other Expense,budget,7405.12
+2026-12,HOTEL_A,Undistributed Operating Expenses,Administrative & General,budget,11613.84
+2026-12,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,budget,11276.21
+2026-12,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,budget,11369.48
+2026-12,HOTEL_A,Undistributed Operating Expenses,Utilities,budget,15849.86
+2026-12,HOTEL_A,Fixed Charges,Property Insurance,budget,3600.0
+2026-12,HOTEL_A,Fixed Charges,Property Taxes,budget,8160.0
+2026-12,HOTEL_A,Fixed Charges,Management Fees,budget,13615.68
+2026-12,HOTEL_A,Revenue,Rooms Revenue,actual,345060.07
+2026-12,HOTEL_A,Revenue,Food & Beverage Revenue,actual,74966.5
+2026-12,HOTEL_A,Revenue,Other Operating Revenue,actual,18355.95
+2026-12,HOTEL_A,Departmental Expenses,Rooms Labor,actual,47541.99
+2026-12,HOTEL_A,Departmental Expenses,Rooms Other Expense,actual,18771.94
+2026-12,HOTEL_A,Departmental Expenses,F&B Labor,actual,30022.64
+2026-12,HOTEL_A,Departmental Expenses,F&B Cost of Sales,actual,23929.11
+2026-12,HOTEL_A,Departmental Expenses,F&B Other Expense,actual,7077.27
+2026-12,HOTEL_A,Undistributed Operating Expenses,Administrative & General,actual,11599.49
+2026-12,HOTEL_A,Undistributed Operating Expenses,Sales & Marketing,actual,11124.36
+2026-12,HOTEL_A,Undistributed Operating Expenses,Property Operations & Maintenance,actual,10481.14
+2026-12,HOTEL_A,Undistributed Operating Expenses,Utilities,actual,14310.38
+2026-12,HOTEL_A,Fixed Charges,Property Insurance,actual,3628.0
+2026-12,HOTEL_A,Fixed Charges,Property Taxes,actual,8244.5
+2026-12,HOTEL_A,Fixed Charges,Management Fees,actual,13151.48
+2026-01,HOTEL_B,Revenue,Rooms Revenue,budget,171611.2
+2026-01,HOTEL_B,Revenue,Food & Beverage Revenue,budget,29596.8
+2026-01,HOTEL_B,Revenue,Other Operating Revenue,budget,7399.2
+2026-01,HOTEL_B,Departmental Expenses,Rooms Labor,budget,29467.2
+2026-01,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,11502.2
+2026-01,HOTEL_B,Departmental Expenses,F&B Labor,budget,18411.6
+2026-01,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,14181.8
+2026-01,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,4456.24
+2026-01,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,7634.68
+2026-01,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,7222.92
+2026-01,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,7362.96
+2026-01,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,10092.72
+2026-01,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-01,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-01,HOTEL_B,Fixed Charges,Management Fees,budget,6258.22
+2026-01,HOTEL_B,Revenue,Rooms Revenue,actual,174151.6
+2026-01,HOTEL_B,Revenue,Food & Beverage Revenue,actual,29298.7
+2026-01,HOTEL_B,Revenue,Other Operating Revenue,actual,7346.9
+2026-01,HOTEL_B,Departmental Expenses,Rooms Labor,actual,29011.46
+2026-01,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,11105.97
+2026-01,HOTEL_B,Departmental Expenses,F&B Labor,actual,18761.31
+2026-01,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,14777.35
+2026-01,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,4172.75
+2026-01,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,7607.1
+2026-01,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,6906.08
+2026-01,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,7631.93
+2026-01,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,10394.76
+2026-01,HOTEL_B,Fixed Charges,Property Insurance,actual,2504.37
+2026-01,HOTEL_B,Fixed Charges,Property Taxes,actual,5649.43
+2026-01,HOTEL_B,Fixed Charges,Management Fees,actual,6323.92
+2026-02,HOTEL_B,Revenue,Rooms Revenue,budget,159323.0
+2026-02,HOTEL_B,Revenue,Food & Beverage Revenue,budget,27477.6
+2026-02,HOTEL_B,Revenue,Other Operating Revenue,budget,6869.4
+2026-02,HOTEL_B,Departmental Expenses,Rooms Labor,budget,27612.9
+2026-02,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,10751.65
+2026-02,HOTEL_B,Departmental Expenses,F&B Labor,budget,17263.7
+2026-02,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,13166.35
+2026-02,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,4173.68
+2026-02,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,7422.76
+2026-02,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,6949.19
+2026-02,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,7115.72
+2026-02,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,9686.54
+2026-02,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-02,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-02,HOTEL_B,Fixed Charges,Management Fees,budget,5810.1
+2026-02,HOTEL_B,Revenue,Rooms Revenue,actual,168656.98
+2026-02,HOTEL_B,Revenue,Food & Beverage Revenue,actual,28720.09
+2026-02,HOTEL_B,Revenue,Other Operating Revenue,actual,7082.1
+2026-02,HOTEL_B,Departmental Expenses,Rooms Labor,actual,29529.27
+2026-02,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,11382.11
+2026-02,HOTEL_B,Departmental Expenses,F&B Labor,actual,18384.93
+2026-02,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,14267.35
+2026-02,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,4436.66
+2026-02,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,7561.17
+2026-02,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,7216.32
+2026-02,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,6821.01
+2026-02,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,9867.35
+2026-02,HOTEL_B,Fixed Charges,Property Insurance,actual,2537.55
+2026-02,HOTEL_B,Fixed Charges,Property Taxes,actual,5796.44
+2026-02,HOTEL_B,Fixed Charges,Management Fees,actual,6133.78
+2026-03,HOTEL_B,Revenue,Rooms Revenue,budget,195450.4
+2026-03,HOTEL_B,Revenue,Food & Beverage Revenue,budget,33708.0
+2026-03,HOTEL_B,Revenue,Other Operating Revenue,budget,8427.0
+2026-03,HOTEL_B,Departmental Expenses,Rooms Labor,budget,33064.5
+2026-03,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,12958.25
+2026-03,HOTEL_B,Departmental Expenses,F&B Labor,budget,20638.5
+2026-03,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,16151.75
+2026-03,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,5004.4
+2026-03,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,8045.8
+2026-03,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,7753.95
+2026-03,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,7842.6
+2026-03,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,10880.7
+2026-03,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-03,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-03,HOTEL_B,Fixed Charges,Management Fees,budget,7127.56
+2026-03,HOTEL_B,Revenue,Rooms Revenue,actual,192166.88
+2026-03,HOTEL_B,Revenue,Food & Beverage Revenue,actual,33633.28
+2026-03,HOTEL_B,Revenue,Other Operating Revenue,actual,8499.63
+2026-03,HOTEL_B,Departmental Expenses,Rooms Labor,actual,31291.69
+2026-03,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,12861.05
+2026-03,HOTEL_B,Departmental Expenses,F&B Labor,actual,20425.43
+2026-03,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,17358.93
+2026-03,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,4865.9
+2026-03,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8627.04
+2026-03,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,7774.0
+2026-03,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,7268.77
+2026-03,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,11001.49
+2026-03,HOTEL_B,Fixed Charges,Property Insurance,actual,2563.09
+2026-03,HOTEL_B,Fixed Charges,Property Taxes,actual,5583.5
+2026-03,HOTEL_B,Fixed Charges,Management Fees,actual,7028.99
+2026-04,HOTEL_B,Revenue,Rooms Revenue,budget,207599.8
+2026-04,HOTEL_B,Revenue,Food & Beverage Revenue,budget,35803.2
+2026-04,HOTEL_B,Revenue,Other Operating Revenue,budget,8950.8
+2026-04,HOTEL_B,Departmental Expenses,Rooms Labor,budget,34897.8
+2026-04,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,13700.3
+2026-04,HOTEL_B,Departmental Expenses,F&B Labor,budget,21773.4
+2026-04,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,17155.7
+2026-04,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,5283.76
+2026-04,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,8255.32
+2026-04,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,8024.58
+2026-04,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,8087.04
+2026-04,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,11282.28
+2026-04,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-04,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-04,HOTEL_B,Fixed Charges,Management Fees,budget,7570.61
+2026-04,HOTEL_B,Revenue,Rooms Revenue,actual,201740.29
+2026-04,HOTEL_B,Revenue,Food & Beverage Revenue,actual,34237.71
+2026-04,HOTEL_B,Revenue,Other Operating Revenue,actual,8779.86
+2026-04,HOTEL_B,Departmental Expenses,Rooms Labor,actual,33751.28
+2026-04,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,13736.13
+2026-04,HOTEL_B,Departmental Expenses,F&B Labor,actual,20825.82
+2026-04,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,17272.2
+2026-04,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,5266.57
+2026-04,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8488.09
+2026-04,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,8828.6
+2026-04,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,8211.32
+2026-04,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,11103.42
+2026-04,HOTEL_B,Fixed Charges,Property Insurance,actual,2643.11
+2026-04,HOTEL_B,Fixed Charges,Property Taxes,actual,5967.92
+2026-04,HOTEL_B,Fixed Charges,Management Fees,actual,7342.74
+2026-05,HOTEL_B,Revenue,Rooms Revenue,budget,238338.6
+2026-05,HOTEL_B,Revenue,Food & Beverage Revenue,budget,41104.8
+2026-05,HOTEL_B,Revenue,Other Operating Revenue,budget,10276.2
+2026-05,HOTEL_B,Departmental Expenses,Rooms Labor,budget,39536.7
+2026-05,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,15577.95
+2026-05,HOTEL_B,Departmental Expenses,F&B Labor,budget,24645.1
+2026-05,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,19696.05
+2026-05,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,5990.64
+2026-05,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,8785.48
+2026-05,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,8709.37
+2026-05,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,8705.56
+2026-05,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,12298.42
+2026-05,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-05,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-05,HOTEL_B,Fixed Charges,Management Fees,budget,8691.59
+2026-05,HOTEL_B,Revenue,Rooms Revenue,actual,233600.95
+2026-05,HOTEL_B,Revenue,Food & Beverage Revenue,actual,39900.33
+2026-05,HOTEL_B,Revenue,Other Operating Revenue,actual,10186.83
+2026-05,HOTEL_B,Departmental Expenses,Rooms Labor,actual,38038.75
+2026-05,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,14781.43
+2026-05,HOTEL_B,Departmental Expenses,F&B Labor,actual,24136.37
+2026-05,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,19335.77
+2026-05,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,6118.9
+2026-05,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8807.81
+2026-05,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,8196.82
+2026-05,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,8622.54
+2026-05,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,11451.13
+2026-05,HOTEL_B,Fixed Charges,Property Insurance,actual,2554.66
+2026-05,HOTEL_B,Fixed Charges,Property Taxes,actual,5786.29
+2026-05,HOTEL_B,Fixed Charges,Management Fees,actual,8510.64
+2026-06,HOTEL_B,Revenue,Rooms Revenue,budget,258334.8
+2026-06,HOTEL_B,Revenue,Food & Beverage Revenue,budget,44553.6
+2026-06,HOTEL_B,Revenue,Other Operating Revenue,budget,11138.4
+2026-06,HOTEL_B,Departmental Expenses,Rooms Labor,budget,42554.4
+2026-06,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,16799.4
+2026-06,HOTEL_B,Departmental Expenses,F&B Labor,budget,26513.2
+2026-06,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,21348.6
+2026-06,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,6450.48
+2026-06,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,9130.36
+2026-06,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,9154.84
+2026-06,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,9107.92
+2026-06,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,12959.44
+2026-06,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-06,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-06,HOTEL_B,Fixed Charges,Management Fees,budget,9420.8
+2026-06,HOTEL_B,Revenue,Rooms Revenue,actual,250606.7
+2026-06,HOTEL_B,Revenue,Food & Beverage Revenue,actual,43857.29
+2026-06,HOTEL_B,Revenue,Other Operating Revenue,actual,10758.89
+2026-06,HOTEL_B,Departmental Expenses,Rooms Labor,actual,42292.61
+2026-06,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,15902.11
+2026-06,HOTEL_B,Departmental Expenses,F&B Labor,actual,25225.76
+2026-06,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,21563.02
+2026-06,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,6288.59
+2026-06,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,9679.05
+2026-06,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,9101.13
+2026-06,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,9076.14
+2026-06,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,12791.47
+2026-06,HOTEL_B,Fixed Charges,Property Insurance,actual,2499.98
+2026-06,HOTEL_B,Fixed Charges,Property Taxes,actual,5780.09
+2026-06,HOTEL_B,Fixed Charges,Management Fees,actual,9156.69
+2026-07,HOTEL_B,Revenue,Rooms Revenue,budget,286028.0
+2026-07,HOTEL_B,Revenue,Food & Beverage Revenue,budget,49329.6
+2026-07,HOTEL_B,Revenue,Other Operating Revenue,budget,12332.4
+2026-07,HOTEL_B,Departmental Expenses,Rooms Labor,budget,46733.4
+2026-07,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,18490.9
+2026-07,HOTEL_B,Departmental Expenses,F&B Labor,budget,29100.2
+2026-07,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,23637.1
+2026-07,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,7087.28
+2026-07,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,9607.96
+2026-07,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,9771.74
+2026-07,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,9665.12
+2026-07,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,13874.84
+2026-07,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-07,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-07,HOTEL_B,Fixed Charges,Management Fees,budget,10430.7
+2026-07,HOTEL_B,Revenue,Rooms Revenue,actual,289542.33
+2026-07,HOTEL_B,Revenue,Food & Beverage Revenue,actual,47140.57
+2026-07,HOTEL_B,Revenue,Other Operating Revenue,actual,11897.39
+2026-07,HOTEL_B,Departmental Expenses,Rooms Labor,actual,43024.8
+2026-07,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,18244.44
+2026-07,HOTEL_B,Departmental Expenses,F&B Labor,actual,27630.32
+2026-07,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,22684.87
+2026-07,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,6740.72
+2026-07,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,10001.38
+2026-07,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,9015.28
+2026-07,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,9421.48
+2026-07,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,12763.4
+2026-07,HOTEL_B,Fixed Charges,Property Insurance,actual,2443.77
+2026-07,HOTEL_B,Fixed Charges,Property Taxes,actual,5841.92
+2026-07,HOTEL_B,Fixed Charges,Management Fees,actual,10457.41
+2026-08,HOTEL_B,Revenue,Rooms Revenue,budget,281242.0
+2026-08,HOTEL_B,Revenue,Food & Beverage Revenue,budget,48504.0
+2026-08,HOTEL_B,Revenue,Other Operating Revenue,budget,12126.0
+2026-08,HOTEL_B,Departmental Expenses,Rooms Labor,budget,46011.0
+2026-08,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,18198.5
+2026-08,HOTEL_B,Departmental Expenses,F&B Labor,budget,28653.0
+2026-08,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,23241.5
+2026-08,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,6977.2
+2026-08,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,9525.4
+2026-08,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,9665.1
+2026-08,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,9568.8
+2026-08,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,13716.6
+2026-08,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-08,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-08,HOTEL_B,Fixed Charges,Management Fees,budget,10256.16
+2026-08,HOTEL_B,Revenue,Rooms Revenue,actual,291119.46
+2026-08,HOTEL_B,Revenue,Food & Beverage Revenue,actual,48347.81
+2026-08,HOTEL_B,Revenue,Other Operating Revenue,actual,11482.85
+2026-08,HOTEL_B,Departmental Expenses,Rooms Labor,actual,45922.06
+2026-08,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,18785.21
+2026-08,HOTEL_B,Departmental Expenses,F&B Labor,actual,27713.23
+2026-08,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,24154.48
+2026-08,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,6743.47
+2026-08,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,9895.12
+2026-08,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,9120.58
+2026-08,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,9897.84
+2026-08,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,13618.4
+2026-08,HOTEL_B,Fixed Charges,Property Insurance,actual,2550.56
+2026-08,HOTEL_B,Fixed Charges,Property Taxes,actual,5704.89
+2026-08,HOTEL_B,Fixed Charges,Management Fees,actual,10528.5
+2026-09,HOTEL_B,Revenue,Rooms Revenue,budget,242192.6
+2026-09,HOTEL_B,Revenue,Food & Beverage Revenue,budget,41769.6
+2026-09,HOTEL_B,Revenue,Other Operating Revenue,budget,10442.4
+2026-09,HOTEL_B,Departmental Expenses,Rooms Labor,budget,40118.4
+2026-09,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,15813.4
+2026-09,HOTEL_B,Departmental Expenses,F&B Labor,budget,25005.2
+2026-09,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,20014.6
+2026-09,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,6079.28
+2026-09,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,8851.96
+2026-09,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,8795.24
+2026-09,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,8783.12
+2026-09,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,12425.84
+2026-09,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-09,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-09,HOTEL_B,Fixed Charges,Management Fees,budget,8832.14
+2026-09,HOTEL_B,Revenue,Rooms Revenue,actual,246534.15
+2026-09,HOTEL_B,Revenue,Food & Beverage Revenue,actual,39521.75
+2026-09,HOTEL_B,Revenue,Other Operating Revenue,actual,9621.99
+2026-09,HOTEL_B,Departmental Expenses,Rooms Labor,actual,37577.0
+2026-09,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,14402.06
+2026-09,HOTEL_B,Departmental Expenses,F&B Labor,actual,23141.62
+2026-09,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,18348.19
+2026-09,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,5540.08
+2026-09,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8152.51
+2026-09,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,8366.29
+2026-09,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,8817.03
+2026-09,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,12337.31
+2026-09,HOTEL_B,Fixed Charges,Property Insurance,actual,2468.82
+2026-09,HOTEL_B,Fixed Charges,Property Taxes,actual,5718.6
+2026-09,HOTEL_B,Fixed Charges,Management Fees,actual,8870.34
+2026-10,HOTEL_B,Revenue,Rooms Revenue,budget,233580.6
+2026-10,HOTEL_B,Revenue,Food & Beverage Revenue,budget,40284.0
+2026-10,HOTEL_B,Revenue,Other Operating Revenue,budget,10071.0
+2026-10,HOTEL_B,Departmental Expenses,Rooms Labor,budget,38818.5
+2026-10,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,15287.25
+2026-10,HOTEL_B,Departmental Expenses,F&B Labor,budget,24200.5
+2026-10,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,19302.75
+2026-10,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,5881.2
+2026-10,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,8703.4
+2026-10,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,8603.35
+2026-10,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,8609.8
+2026-10,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,12141.1
+2026-10,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-10,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-10,HOTEL_B,Fixed Charges,Management Fees,budget,8518.07
+2026-10,HOTEL_B,Revenue,Rooms Revenue,actual,223450.35
+2026-10,HOTEL_B,Revenue,Food & Beverage Revenue,actual,38039.49
+2026-10,HOTEL_B,Revenue,Other Operating Revenue,actual,9245.94
+2026-10,HOTEL_B,Departmental Expenses,Rooms Labor,actual,37002.46
+2026-10,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,13971.56
+2026-10,HOTEL_B,Departmental Expenses,F&B Labor,actual,23133.05
+2026-10,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,17777.42
+2026-10,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,5729.37
+2026-10,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8536.27
+2026-10,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,7835.63
+2026-10,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,8273.3
+2026-10,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,12151.86
+2026-10,HOTEL_B,Fixed Charges,Property Insurance,actual,2588.34
+2026-10,HOTEL_B,Fixed Charges,Property Taxes,actual,5691.71
+2026-10,HOTEL_B,Fixed Charges,Management Fees,actual,8122.07
+2026-11,HOTEL_B,Revenue,Rooms Revenue,budget,189134.0
+2026-11,HOTEL_B,Revenue,Food & Beverage Revenue,budget,32618.4
+2026-11,HOTEL_B,Revenue,Other Operating Revenue,budget,8154.6
+2026-11,HOTEL_B,Departmental Expenses,Rooms Labor,budget,32111.1
+2026-11,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,12572.35
+2026-11,HOTEL_B,Departmental Expenses,F&B Labor,budget,20048.3
+2026-11,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,15629.65
+2026-11,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,4859.12
+2026-11,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,7936.84
+2026-11,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,7613.21
+2026-11,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,7715.48
+2026-11,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,10671.86
+2026-11,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-11,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-11,HOTEL_B,Fixed Charges,Management Fees,budget,6897.21
+2026-11,HOTEL_B,Revenue,Rooms Revenue,actual,187638.94
+2026-11,HOTEL_B,Revenue,Food & Beverage Revenue,actual,32968.83
+2026-11,HOTEL_B,Revenue,Other Operating Revenue,actual,8046.29
+2026-11,HOTEL_B,Departmental Expenses,Rooms Labor,actual,31968.88
+2026-11,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,12418.54
+2026-11,HOTEL_B,Departmental Expenses,F&B Labor,actual,18569.0
+2026-11,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,14870.47
+2026-11,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,4984.66
+2026-11,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8309.31
+2026-11,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,7824.18
+2026-11,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,7450.31
+2026-11,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,10293.92
+2026-11,HOTEL_B,Fixed Charges,Property Insurance,actual,2546.79
+2026-11,HOTEL_B,Fixed Charges,Property Taxes,actual,5950.8
+2026-11,HOTEL_B,Fixed Charges,Management Fees,actual,6859.62
+2026-12,HOTEL_B,Revenue,Rooms Revenue,budget,185917.4
+2026-12,HOTEL_B,Revenue,Food & Beverage Revenue,budget,32064.0
+2026-12,HOTEL_B,Revenue,Other Operating Revenue,budget,8016.0
+2026-12,HOTEL_B,Departmental Expenses,Rooms Labor,budget,31626.0
+2026-12,HOTEL_B,Departmental Expenses,Rooms Other Expense,budget,12376.0
+2026-12,HOTEL_B,Departmental Expenses,F&B Labor,budget,19748.0
+2026-12,HOTEL_B,Departmental Expenses,F&B Cost of Sales,budget,15364.0
+2026-12,HOTEL_B,Departmental Expenses,F&B Other Expense,budget,4785.2
+2026-12,HOTEL_B,Undistributed Operating Expenses,Administrative & General,budget,7881.4
+2026-12,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,budget,7541.6
+2026-12,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,budget,7650.8
+2026-12,HOTEL_B,Undistributed Operating Expenses,Utilities,budget,10565.6
+2026-12,HOTEL_B,Fixed Charges,Property Insurance,budget,2550.0
+2026-12,HOTEL_B,Fixed Charges,Property Taxes,budget,5780.0
+2026-12,HOTEL_B,Fixed Charges,Management Fees,budget,6779.92
+2026-12,HOTEL_B,Revenue,Rooms Revenue,actual,182062.61
+2026-12,HOTEL_B,Revenue,Food & Beverage Revenue,actual,30648.24
+2026-12,HOTEL_B,Revenue,Other Operating Revenue,actual,8129.89
+2026-12,HOTEL_B,Departmental Expenses,Rooms Labor,actual,31954.11
+2026-12,HOTEL_B,Departmental Expenses,Rooms Other Expense,actual,12614.7
+2026-12,HOTEL_B,Departmental Expenses,F&B Labor,actual,19479.55
+2026-12,HOTEL_B,Departmental Expenses,F&B Cost of Sales,actual,15178.15
+2026-12,HOTEL_B,Departmental Expenses,F&B Other Expense,actual,4608.2
+2026-12,HOTEL_B,Undistributed Operating Expenses,Administrative & General,actual,8000.69
+2026-12,HOTEL_B,Undistributed Operating Expenses,Sales & Marketing,actual,7687.59
+2026-12,HOTEL_B,Undistributed Operating Expenses,Property Operations & Maintenance,actual,7393.13
+2026-12,HOTEL_B,Undistributed Operating Expenses,Utilities,actual,10553.56
+2026-12,HOTEL_B,Fixed Charges,Property Insurance,actual,2591.29
+2026-12,HOTEL_B,Fixed Charges,Property Taxes,actual,5584.5
+2026-12,HOTEL_B,Fixed Charges,Management Fees,actual,6625.22

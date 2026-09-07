@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Generated output
+output/*.xlsx
+output/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
