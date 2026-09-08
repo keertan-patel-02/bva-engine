@@ -70,6 +70,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 
@@ -79,3 +80,28 @@ EXPENSE_SECTIONS = (
     "Undistributed Operating Expenses",
     "Fixed Charges",
 )
+
+def load_pnl(path="data/pnl.csv") -> pd.DataFrame:
+    df = pd.read_csv(path)
+    return df
+
+def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
+    df = pnl
+    pivoted_df = df.pivot(
+        index=['period', 'entity_id', 'section', 'line_item'],
+        columns='scenario',
+        values='amount'
+    )
+    # Reseting Index for Pivoted Table
+    pivoted_df = pivoted_df.reset_index()
+    # Renaming Axis
+    pivoted_df = pivoted_df.rename_axis(columns=None)
+
+    # Calculating Variance
+    pivoted_df['variance'] = pivoted_df['actual'] - pivoted_df['budget']
+    pivoted_df['variance_pct'] = pivoted_df['variance'] / pivoted_df['budget']
+    # Flip signs based on if variance is favorable or not based on section.
+    pivoted_df['variance_fav'] = np.where(pivoted_df['section'].isin(EXPENSE_SECTIONS), pivoted_df['variance']*-1, pivoted_df['variance'])
+    # Is the variance favorable or not
+    pivoted_df['favorable'] = pivoted_df['variance_fav'] > 0
+    return pivoted_df
