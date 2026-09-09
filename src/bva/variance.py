@@ -81,13 +81,12 @@ EXPENSE_SECTIONS = (
     "Fixed Charges",
 )
 
-def load_pnl(path="data/pnl.csv") -> pd.DataFrame:
+def load_pnl(path=DATA_DIR/"pnl.csv") -> pd.DataFrame:
     df = pd.read_csv(path)
     return df
 
 def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
-    df = pnl
-    pivoted_df = df.pivot(
+    pivoted_df = pnl.pivot(
         index=['period', 'entity_id', 'section', 'line_item'],
         columns='scenario',
         values='amount'
@@ -99,9 +98,23 @@ def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
 
     # Calculating Variance
     pivoted_df['variance'] = pivoted_df['actual'] - pivoted_df['budget']
+
+
+    # Calculating Variance Percentage. Divide by 0 will give infinity as an answer for unbudgeted items. 
     pivoted_df['variance_pct'] = pivoted_df['variance'] / pivoted_df['budget']
+
     # Flip signs based on if variance is favorable or not based on section.
     pivoted_df['variance_fav'] = np.where(pivoted_df['section'].isin(EXPENSE_SECTIONS), pivoted_df['variance']*-1, pivoted_df['variance'])
+
+
     # Is the variance favorable or not
     pivoted_df['favorable'] = pivoted_df['variance_fav'] > 0
+
+    # Filter the data frame based on what period and entity parameteres are provided.
+    if period is not None:
+        pivoted_df = pivoted_df[pivoted_df['period'] == period]
+    if entity_id is not None:
+        pivoted_df = pivoted_df[pivoted_df['entity_id'] == entity_id]
+
+    
     return pivoted_df
