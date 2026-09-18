@@ -118,3 +118,28 @@ def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
 
     
     return pivoted_df
+
+def flag_material(df, dollar_floor=2500.0, pct_floor=0.05) -> pd.DataFrame:
+    df = df.copy()
+    df['material'] = (df['variance'].abs() >= dollar_floor) & (df['variance_pct'].abs() >= pct_floor)
+    return df
+
+def summarize(df) -> pd.DataFrame:
+    summary_columns = ['budget','actual','variance','variance_fav']
+    sections_df = df.copy()
+    section = pd.CategoricalDtype(categories=[REVENUE_SECTION, *EXPENSE_SECTIONS], ordered=True)
+    sections_df['section'] = sections_df['section'].astype(section)
+    sections_df = sections_df.groupby('section', observed=True)[summary_columns].sum()
+    sections_df = sections_df.reset_index()
+
+    sections_df['section'] = sections_df['section'].astype(str)
+
+    rev_totals = sections_df.loc[sections_df['section']== REVENUE_SECTION, summary_columns].sum()
+    expense_totals = sections_df.loc[sections_df['section'].isin(EXPENSE_SECTIONS), summary_columns].sum()
+
+    totals_df = pd.DataFrame([
+        {"section": "Total Revenue", **dict(rev_totals)},
+        {"section": "Total Expenses", **dict(expense_totals)},
+    ])
+
+    return pd.concat([sections_df, totals_df], ignore_index=True)
