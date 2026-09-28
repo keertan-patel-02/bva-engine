@@ -55,14 +55,6 @@ flag_material(df, dollar_floor=5000.0, pct_floor=0.05) -> pd.DataFrame
 summarize(df) -> pd.DataFrame
     Roll up to section level for the summary tab: budget, actual, variance,
     variance_fav per section, plus a Total Revenue and Total Expenses row.
-
-TODO(S2): implement the four functions above.
-TODO(S2): write tests/test_variance.py -- at minimum:
-          - a revenue overage is favorable
-          - an expense overage is unfavorable
-          - a line breaching only the dollar floor does NOT flag
-          - a line breaching only the percent floor does NOT flag
-          - zero budget does not raise
 """
 
 from __future__ import annotations
@@ -104,6 +96,10 @@ def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
     pivoted_df['variance_pct'] = pivoted_df['variance'] / pivoted_df['budget']
 
     # Flip signs based on if variance is favorable or not based on section.
+    # NOTE: np.where has only two branches, so any section outside
+    # EXPENSE_SECTIONS falls through and is treated as revenue. Acceptable
+    # here because the chart of accounts comes from one controlled
+    # generator; a real feed would want sections validated on load
     pivoted_df['variance_fav'] = np.where(pivoted_df['section'].isin(EXPENSE_SECTIONS), pivoted_df['variance']*-1, pivoted_df['variance'])
 
 
