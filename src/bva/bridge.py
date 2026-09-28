@@ -22,3 +22,40 @@ example you should walk an interviewer through.
 TODO(S3): implement the decomposition. Components must sum to the total
           rooms revenue variance, and a test must assert that tie-out.
 """
+
+def build_segment_table(drivers, period, entity_id):
+    drivers_df = drivers.copy()
+    ## Filter for the entity_id and relevant period
+    drivers_df = drivers_df[drivers_df["entity_id"] == entity_id]
+    drivers_df = drivers_df[drivers_df["period"] == period]
+
+    segment_table = drivers_df.pivot(index="segment", columns="scenario")
+
+    segment_table.columns = ["_".join(col) for col in segment_table.columns]
+
+    segment_table = segment_table[["room_nights_budget", "room_nights_actual", "adr_budget", "adr_actual"]]
+    segment_table = segment_table.reset_index()
+    return segment_table
+
+
+def build_bridge(drivers, period, entity_id):
+    segment_table = build_segment_table(drivers, period, entity_id)
+
+    budget_rev_series = segment_table["room_nights_budget"] * segment_table["adr_budget"]
+    budget_rev = budget_rev_series.sum()
+    actual_rev_series = segment_table["room_nights_actual"]* segment_table["adr_actual"]
+    actual_rev = actual_rev_series.sum()
+    quantity_budgeted_total = segment_table['room_nights_budget'].sum()
+    quantity_actual_total = segment_table['room_nights_actual'].sum()
+
+    volume = (quantity_actual_total - quantity_budgeted_total) * (budget_rev/quantity_budgeted_total)
+
+    budget_weights = segment_table["room_nights_budget"] / quantity_budgeted_total
+
+    mix_series = (segment_table["room_nights_actual"] - (quantity_actual_total * budget_weights)) * segment_table["adr_budget"]
+    mix = mix_series.sum()
+
+    rate_series = segment_table["room_nights_actual"] * (segment_table["adr_actual"] - segment_table["adr_budget"])
+    rate = rate_series.sum()
+    return segment_table
+

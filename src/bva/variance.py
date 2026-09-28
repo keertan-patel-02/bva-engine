@@ -77,6 +77,10 @@ def load_pnl(path=DATA_DIR/"pnl.csv") -> pd.DataFrame:
     df = pd.read_csv(path)
     return df
 
+def load_drivers(path=DATA_DIR/"revenue_drivers.csv") -> pd.DataFrame:
+    df = pd.read_csv(path)
+    return df
+  
 def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
     pivoted_df = pnl.pivot(
         index=['period', 'entity_id', 'section', 'line_item'],

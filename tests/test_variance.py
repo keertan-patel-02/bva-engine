@@ -6,7 +6,7 @@ test_expense_overage -> Checks signage of variance_fav is negative for expense g
 test_dollar_floor_flag_alone -> Checks that a variance that only breaks dollar floor does not flag as material
 test_pct_floor_flag_alone -> Checks that a variance that only breaks pct floor does not flag as material
 test_zero_budget_material_flag -> Checks that zero budget items flag only when they abide by the dollar floor 
-test_summarize_profit_totals -> Checks that the sum of variance_fav of the two toatls lines shows the profit
+test_summarize_profit_totals -> Checks that the sum of variance_fav of the two totals lines shows the profit
 ====================================================
 Run with:  python -m pytest -q
 """
