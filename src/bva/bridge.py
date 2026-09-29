@@ -29,6 +29,10 @@ def build_segment_table(drivers, period, entity_id):
     ## Filter for the entity_id and relevant period
     drivers_df = drivers_df[drivers_df["entity_id"] == entity_id]
     drivers_df = drivers_df[drivers_df["period"] == period]
+    if drivers_df.empty:
+        raise ValueError(
+            f"No driver rows for entity_id={entity_id!r}, period={period!r}"
+        )
 
     segment_table = drivers_df.pivot(index="segment", columns="scenario")
 
