@@ -1,9 +1,11 @@
 
 import pandas as pd
 from pathlib import Path
-from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.styles import Font, PatternFill
+from openpyxl.drawing.image import Image
 from bva.variance import load_pnl, build_variance, flag_material, summarize, load_drivers
 from bva.bridge import build_bridge
+from bva.chart import build_waterfall
 
 
 OUTPUT_DIR = Path(__file__).resolve().parents[2] / "output"
@@ -48,12 +50,15 @@ def output_excel(period):
             display_df = display_df.rename(columns=LABELS)
             entity_bridge_df = build_bridge(drivers, period, entity)
             entity_bridge_df = entity_bridge_df[["component", "amount"]]
+            png = build_waterfall(OUTPUT_DIR,entity_bridge_df, entity, period)
             entity_bridge_df = entity_bridge_df.rename(columns=LABELS)
             display_df.to_excel(writer, sheet_name=entity, index=False)
             format_sheet(writer.sheets[entity])
             highlight_material(writer.sheets[entity], entity_df)
             entity_bridge_df.to_excel(writer, sheet_name=f"{entity}_bridge", index=False)
             format_sheet(writer.sheets[f"{entity}_bridge"])
+            ws = writer.sheets[f"{entity}_bridge"]
+            ws.add_image(Image(png), "D2")
     
     return path
         
@@ -88,7 +93,7 @@ def highlight_material(ws, df):
             for cell in ws[row_number]:
                 cell.fill = FILL
     if flag:
-        note = f"Highlighted rows exceed both materiality thresholds: $2,500 and 5%. Total Line(s): {flag}"
+        note = f"Highlighted rows exceed both materiality thresholds: $2,500 and 5%. Total Highlighted Line(s): {flag}"
     else:
         note = "No lines exceeded both materiality thresholds ($2,500 and 5%)."
 
