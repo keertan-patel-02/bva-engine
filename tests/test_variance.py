@@ -10,6 +10,7 @@ test_summarize_profit_totals -> Checks that the sum of variance_fav of the two t
 ====================================================
 Run with:  python -m pytest -q
 """
+import pytest
 import pandas as pd
 import math
 from bva.variance import load_pnl, build_variance, flag_material, summarize
@@ -76,3 +77,27 @@ def test_summarize_profit_totals():
     profit = totals["variance_fav"].sum()
     assert abs(profit -(-20)) <= 0.01
     assert len(df) == 4
+
+def test_missing_budget_value():
+    df = tiny(
+        ("Revenue", "Rooms Revenue", 100, 110),
+        ("Departmental Expenses", "Rooms Labor", 100, 130),
+    )
+    # Drop the budget row for Rooms Labor only, so that one line has an actual but no budget.
+    drop = (df["line_item"] == "Rooms Labor") & (df["scenario"] == "budget")
+    df = df[~drop]
+
+    with pytest.raises(ValueError, match="budget"):
+        build_variance(df)
+
+def test_missing_actual_value():
+    df = tiny(
+        ("Revenue", "Rooms Revenue", 100, 110),
+        ("Departmental Expenses", "Rooms Labor", 100, 130),
+    )
+    # Drop the budget row for Rooms Labor only, so that one line has an actual but no budget.
+    drop = (df["line_item"] == "Rooms Labor") & (df["scenario"] == "actual")
+    df = df[~drop]
+
+    with pytest.raises(ValueError, match="actual"):
+        build_variance(df)

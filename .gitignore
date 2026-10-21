@@ -14,3 +14,8 @@ output/*.png
 .vscode/
 .idea/
 scratch.py
+
+#SQL Practice
+scratch_sql.py
+practice.db
+sql_practice.sql

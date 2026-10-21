@@ -1,5 +1,7 @@
 
 
+MATERIAL_EFFECT = 2500.00
+
 def material_lines_comment(detail_df):
     """
     One sentence per material line, biggest dollar swing first.
@@ -23,4 +25,29 @@ def material_lines_comment(detail_df):
     return comments
 
 def bridge_comment(bridge_df, segment_df):
+    amounts = bridge_df.set_index("component")["amount"]
+    segments = segment_df.set_index("segment")
+
+    total = amounts["Actual Revenue"] - amounts["Budget Revenue"]
+    pct = total / amounts["Budget Revenue"]
+
+    direction = "above" if total > 0 else "below"
+    headline = f"Rooms revenue finished ${total:,.0f} ({abs(pct):.1%}) {direction} budget."
+    ...
+
+
+def _phrase(name, amount):
+    ## volume' + 2213.215 -> 'volume added $2214' (verb from the signage)
+    ...
+
+def _volume_clause(segments):
+    ## Toal nights actual vs budget. Sums two columns, names no segment
+    ...
+
+def _mix_clause(segments):
+    ## Always two-sided: top gainer and bottom returner from 'mix_effect'
+    ...
+
+def _rate_clause(segments):
+    ## Largest absolute'rate_effect' segment, with its ADR gap and its nights
     ...

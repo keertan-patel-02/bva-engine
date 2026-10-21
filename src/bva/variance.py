@@ -92,6 +92,13 @@ def build_variance(pnl, period=None, entity_id=None) -> pd.DataFrame:
     # Renaming Axis
     pivoted_df = pivoted_df.rename_axis(columns=None)
 
+    #Check for missing budget or actual lines
+    missing_budget = pivoted_df[pivoted_df['budget'].isna()]
+    missing_actual = pivoted_df[pivoted_df['actual'].isna()]
+    if not missing_actual.empty:
+        raise ValueError("Missing actual values")
+    if not missing_budget.empty:
+        raise ValueError("Missing budget values")
     # Calculating Variance
     pivoted_df['variance'] = pivoted_df['actual'] - pivoted_df['budget']
 
